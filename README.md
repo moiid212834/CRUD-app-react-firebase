@@ -1,13 +1,62 @@
-= Web Technologies 2 - FA20 - Semester Project
-== Developing a React Native Application for Semester Project
-=== Each task below has equal weightage and code from all team members is required.
-1. Clone this repository and after completion push your changes.
-1. Landing Page Showing a list of items in database (use mlab or firebase for hosting your db)
-1. Use knowledge of Bootstrap and jQuery to enable 
-1. All records have a edit and delete option with them.
-1. Records should comprise of students in the group (CMS_ID, Student_Name, Group_Name, Photo, Githublink) *Photos 40px x 40px can be **optional** and better to use public image URLs.*
-1. Edit takes you to the page with all the record from database loaded in a form.
-1. Insert new record using a separate form, this form as a.
-1. Clicking on a record opens the single user record with a small bio along with the above mentioned details.
-1. Update the README.md with the student names and CMS_ID listed at the end.
-1. Upload you group assignment as a git push.
+# React Firebase CRUD App with Realtime Database
+
+For instruction, please visit:
+> [React Firebase CRUD App with Realtime Database](https://bezkoder.com/react-firebase-crud/)
+
+More practice:
+> [React Firestore CRUD App example | Firebase Cloud Firestore](https://bezkoder.com/react-firestore-crud/)
+
+> [React (Components) CRUD example to consume Web API](https://bezkoder.com/react-crud-web-api/)
+
+> [React (Hooks) CRUD example to consume Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
+
+Fullstack with Node.js Express:
+> [React.js + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
+
+> [React.js + Node.js Express + PostgreSQL](https://bezkoder.com/react-node-express-postgresql/)
+
+> [React.js + Node.js Express + MongoDB](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
+
+Fullstack with Spring Boot:
+> [React.js + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
+
+> [React.js + Spring Boot + PostgreSQL](https://bezkoder.com/spring-boot-react-postgresql/)
+
+> [React.js + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
+
+Fullstack with Django:
+
+> [React.js + Django Rest Framework](https://bezkoder.com/django-react-axios-rest-framework/)
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Set port
+.env
+```
+PORT=8081
+```
+
+## Project setup
+
+In the project directory, you can run:
+
+```
+npm install
+# or
+yarn install
+```
+
+or
+
+### Compiles and hot-reloads for development
+
+```
+npm start
+# or
+yarn start
+```
+
+Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
+
+The page will reload if you make edits.
